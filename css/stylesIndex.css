@@ -1,0 +1,150 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#login {
+    height: 100%;
+    display: flex;
+    padding: 0;
+}
+
+/* Columna izquierda solo con fondo */
+#left-space {
+    background-color: #192E4E; 
+    height: 100%;
+}
+/* Columna derecha con formulario */
+#login-form {
+    padding: 0 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Encabezado con logo y títulos */
+.header-with-logo {
+    display: flex;
+    justify-content: space-between; /* Separa títulos (izq) y logo (der) */
+    align-items: center;
+    margin-bottom: 200px;
+}
+.titles {
+    text-align: left; /* Alinea texto a la izquierda */
+}
+.form-logo {
+    width: 80px;
+    margin-left: 0px; /* Espacio entre texto y logo */
+    width: 80px;
+    height: 100px;
+}
+.welcome-text {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.login-title {
+    font-family: "League Spartan", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+    margin: 0;
+}
+#contenedor{
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+/* Estilos del formulario (se mantienen igual) */
+.form-label {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: semibold;
+    color: #000000;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-field {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.password-container {
+    position: relative;
+}
+
+#eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000000;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.forgot-password {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9rem;
+}
+
+.login-button {
+    background-color: #192E4E !important;
+    border: none;
+    padding: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Nuevas propiedades para eliminar hover */
+    transition: none !important;
+}
+
+.login-button:hover, 
+.login-button:focus {
+    background-color: #192E4E !important;
+    color: white !important;
+}
+#rememberMe {
+    border: 1px solid #192E4E;
+    border-radius: 2px;
+}
+#button:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}
+.login-button:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}

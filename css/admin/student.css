@@ -1,0 +1,207 @@
+/* ESTILOS GENERALES */
+html, body {
+    width: 100%;
+    height: 130%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+/* ELEMENTOS DE BÚSQUEDA */
+.search-container {
+    width: 100%;
+    max-width: 100%; /* Ahora ocupan todo el ancho de su columna */
+    margin-bottom: 1rem;
+}
+
+.search-group {
+    width: 100%;
+}
+
+.search-group .form-control {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    border: 1px solid #000;
+}
+
+.search-group .input-group-text {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.search-select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #000;
+}
+
+/* ETIQUETAS */
+#labelAlumno, #labelCiclo {
+    font-size: 22px;
+    font-family: "League Spartan", sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* BOTONES */
+.buttonInscribir {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #192E4E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    width: auto; /* Ancho automático en lugar del 100% */
+    justify-content: center;
+}
+/* Contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px; /* Ajuste para alinear con los inputs */
+}
+/* Asegurar que las columnas tengan el mismo espaciado */
+.col-md-6 {
+    padding: 0 15px; /* Espaciado estándar de Bootstrap */
+}
+.align-items-center {
+    align-items: center;
+}
+#button {
+    background-color: #192E4E;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    height: 5.5vh;
+}
+
+.botonCancelar, .botonEnter {
+    background-color: #192E4E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    font-size: 18px;
+    height: 6.5vh;
+}
+
+#botonVer {
+    border: none;
+    background: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ICONOS */
+#iBuscar {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconoAdd {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* TABLA */
+#listaAlumnos {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.contenedorTabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* MODALES */
+#tituloModal {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.labelAgregar{
+    font-size: 17px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.botonCancelar:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}
+.botonEnter:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}
+#button:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}
+.buttonInscribir:hover {
+    background-color:rgb(27, 84, 168);
+    color: white;
+    
+}
