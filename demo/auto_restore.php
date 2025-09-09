@@ -27,12 +27,17 @@ if (file_exists($lastRestoreFile)) {
     file_put_contents($lastRestoreFile, time());
 }
 
-// Restaurar los datos si es necesario
+// Restaurar los datos si es necesario y existen los archivos del usuario demo
 if ($needsRestore) {
-    // Incluir y ejecutar el script de restauración
-    require_once __DIR__ . "/restore_demo_data.php";
-    
-    // Actualizar el tiempo de última restauración
-    file_put_contents($lastRestoreFile, time());
+    $demoTeacherFile = __DIR__ . "/demo_teacher_id.txt";
+    $demoUserFile = __DIR__ . "/demo_user_id.txt";
+    $demoUserInfoFile = __DIR__ . "/demo_userinfo_id.txt";
+    if (file_exists($demoTeacherFile) && file_exists($demoUserFile) && file_exists($demoUserInfoFile)) {
+        // Incluir y ejecutar el script de restauración
+        require_once __DIR__ . "/restore_demo_data.php";
+        // Actualizar el tiempo de última restauración
+        file_put_contents($lastRestoreFile, time());
+    }
+    // Si no existen los archivos, no hacer nada (evita bucles de redirección)
 }
 ?>

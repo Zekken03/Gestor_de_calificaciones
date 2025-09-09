@@ -43,9 +43,8 @@ $idUser = file_exists(__DIR__ . "/demo_user_id.txt") ? file_get_contents(__DIR__
 $idUserInfo = file_exists(__DIR__ . "/demo_userinfo_id.txt") ? file_get_contents(__DIR__ . "/demo_userinfo_id.txt") : null;
 
 if (!$idTeacher || !$idUser || !$idUserInfo) {
-    echo "<p class='error'>No se encontró información del profesor demo para restaurar.</p>";
-    echo "<p>Primero debes crear un usuario profesor demo ejecutando el script <code>create_demo_teacher.php</code>.</p>";
-    echo "</body></html>";
+    // Redirigir automáticamente a la portada si falta el usuario demo
+    header('Location: /Gestor_de_calificaciones/index.php');
     exit();
 }
 
