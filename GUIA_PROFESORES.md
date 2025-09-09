@@ -12,9 +12,10 @@ Para fines de evaluación, puede utilizar la cuenta de demostración:
 > **Nota**: Esta cuenta tiene activada la restauración automática. Cualquier cambio realizado se revertirá después de 1 hora para mantener un entorno de demostración consistente.
 
 ### Proceso de Inicio de Sesión
-1. Acceda a la página principal: ````
-https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/simple_fix.php
-````
+1. Acceda a la página principal: 
+```
+https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/
+```
 2. Introduzca sus credenciales de profesor
 3. Seleccione el rol "Maestro" si se le solicita
 4. El sistema lo dirigirá automáticamente al panel de control del profesor

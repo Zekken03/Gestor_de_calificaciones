@@ -25,7 +25,7 @@ Este módulo implementa una solución profesional para proporcionar un usuario d
 3. Ejecute el script de creación del usuario demo:
 
 ```
-https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/create_demo_teacher.php
+https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/demo/create_demo_teacher.php
 ```
 
 ## Funcionamiento Técnico
@@ -82,12 +82,12 @@ Si experimenta problemas con el inicio de sesión del usuario demo o encuentra d
 
 1. Ejecute la herramienta de diagnóstico y corrección:
 ```
-https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/simple_fix.php
+https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/demo/simple_fix.php
 ```
 
 2. Verifique los registros de restauración para detectar posibles errores:
 ```
-https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/restore_log.txt
+https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/demo/restore_log.txt
 ```
 
 ## Archivos del Sistema
