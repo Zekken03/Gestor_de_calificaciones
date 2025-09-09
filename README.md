@@ -141,4 +141,4 @@ Este proyecto está bajo licencia MIT. Consulte el archivo LICENSE para más det
 
 ---
 
-*Desarrollado por Renzo (https://github.com/Zekken03) - © 2023*
+*Desarrollado por Renzo (https://github.com/Zekken03) - © 2025*
