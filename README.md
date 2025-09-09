@@ -56,7 +56,7 @@ Para permitir a reclutadores y evaluadores explorar el sistema sin necesidad de 
 
 - **Usuario**: `profesordemo`
 - **Contraseña**: `github123`
-Ingrese en: https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/
+Ingrese en: https://games-now.skyzerozx.com/Gestor_de_calificaciones/
 Este usuario cuenta con un sistema de auto-restauración que revierte cualquier cambio realizado después de un periodo determinado, manteniendo la integridad del entorno de demostración.
 
 Para más información sobre el sistema de demostración:
@@ -88,12 +88,12 @@ Para más información sobre el sistema de demostración:
 
 4. Acceda al sistema a través de su navegador
    ```
-   https://games-now.skyzerozx.com/Gestor_de_calificaciones/GestorDeCalificaciones/
+   https://games-now.skyzerozx.com/Gestor_de_calificaciones/
    ```
 
    O si lo instaló localmente:
    ```
-   http://localhost/Gestor_de_calificaciones/GestorDeCalificaciones/
+   http://localhost/Gestor_de_calificaciones/
    ```
 
 5. Inicie sesión con el usuario administrador predeterminado
