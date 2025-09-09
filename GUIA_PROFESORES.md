@@ -10,6 +10,7 @@ Para fines de evaluación, puede utilizar la cuenta de demostración:
 - **Contraseña**: `github123`
 
 > **Nota**: Esta cuenta tiene activada la restauración automática. Cualquier cambio realizado se revertirá después de 1 hora para mantener un entorno de demostración consistente.
+Para resetear los cambios del usuario, ingresar a: https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/restore_demo_data.php
 
 ### Proceso de Inicio de Sesión
 1. Acceda a la página principal: ````
@@ -21,7 +22,6 @@ https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/simple_fix.php
 
 ## Panel de Control del Profesor
 
-![Panel de Control](img/dashboard_teacher.png)
 
 El panel de control presenta una interfaz intuitiva con las siguientes secciones:
 
