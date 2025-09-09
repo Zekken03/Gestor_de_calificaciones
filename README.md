@@ -57,7 +57,9 @@ Para permitir a reclutadores y evaluadores explorar el sistema sin necesidad de 
 - **Usuario**: `profesordemo`
 - **Contraseña**: `github123`
 Ingrese en: https://games-now.skyzerozx.com/Gestor_de_calificaciones/
-Para resetear los cambios del usuario, ingresar a: games-now.skyzerozx.com/Gestor_de_calificaciones/demo/restore_demo_data.php
+
+Para resetear los cambios del usuario, ingresar a: https://games-now.skyzerozx.com/Gestor_de_calificaciones/demo/restore_demo_data.php
+
 Este usuario cuenta con un sistema de auto-restauración que revierte cualquier cambio realizado después de un periodo determinado, manteniendo la integridad del entorno de demostración.
 
 Para más información sobre el sistema de demostración:
